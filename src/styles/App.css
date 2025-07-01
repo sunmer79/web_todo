@@ -1,0 +1,58 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+}
+
+/* 한 줄(Row) 정렬 */
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+/* 공통 박스 */
+.calendar-box,
+.todo-section,
+.song-section,
+.memo-pad-wrapper {
+  background-color: #a7d7a7;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  background-image:
+    radial-gradient(rgba(255, 255, 255, 0.3) 8%, transparent 9%),
+    radial-gradient(rgba(255, 255, 255, 0.3) 8%, transparent 9%);
+  background-size: 25px 25px;
+  background-position: 0 0, 12.5px 12.5px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+/* 사이즈 수정 */
+.calendar-box {
+  width: 350px;
+  height: 410px;
+}
+
+.song-section {
+  width: 700px;
+  height: 410px;
+}
+
+.todo-section {
+  width: 525px;
+  min-height: 460px;
+  overflow: auto;
+}
+
+.memo-pad-wrapper {
+  width: 525px;
+  min-height: 460px;
+  overflow: auto;
+}

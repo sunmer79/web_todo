@@ -1,0 +1,33 @@
+.react-calendar {
+  border: none;
+  width: 100%;
+  font-family: inherit;
+  background-color: rgba(255, 255, 255, 0.4); /* 캘린더 배경 투명도 적용 */
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.react-calendar__tile--now {
+  background: #fff89d !important;
+  color: black !important;
+  border-radius: 10px;
+}
+
+.react-calendar__tile--active {
+  background: #0051ff !important;
+  color: white !important;
+  border-radius: 10px;
+}
+
+.calendar-dot-wrapper {
+  margin-top: 2px;
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+}
+
+.calendar-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}

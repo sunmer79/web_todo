@@ -1,0 +1,14 @@
+.memo-pad-wrapper {
+  position: relative;
+  min-height: 400px;
+  overflow: hidden;
+  border-radius: 20px;
+  background-color: #a7d7a7;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image:
+    radial-gradient(rgba(255,255,255,0.3) 8%, transparent 9%),
+    radial-gradient(rgba(255,255,255,0.3) 8%, transparent 9%);
+  background-size: 25px 25px;
+  background-position: 0 0, 12.5px 12.5px;
+}
