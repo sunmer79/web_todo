@@ -1,0 +1,6 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 체크박스 배경: 연한 파스텔 초록 + 약간 회색 섞인 색 -->
+  <rect width="64" height="64" rx="12" fill="#A8D5BA" />
+  <!-- 체크 표시: 짙은 회색 -->
+  <path d="M18 34L28 44L46 24" stroke="#5A6B5F" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
